@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: brown;
+   
+}
+
+.nav{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.sec1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: antiquewhite;
+}
+
+
+.subimg{
+    height: 300px;
+    
+}
+
+.inf{
+    display: flex;
+    flex-direction: column;
+    /* border: solid black; */
+    height: 250px;
+    justify-content: center;
+    width: 350px;
+}
+
+button{
+    height: 70px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
+#order{
+    color: #fff;
+    background-color: orangered;
+    border: none;
+}
+
+
+#delivery{
+    background-color: #fff;
+    border: none;
+}
+h1{
+    font-size: 3rem;
+}
+
+.img2{
+    width: 600px;
+    /* border-bottom-right-radius: 10px; */
+}
+
+
+
+.sec2{
+    /* border: solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 100vh;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+    /* margin-bottom: 20px; */
+    height: 1000px;
+}
+
+p{
+    font-size: 10px
+}
+
+.meninf {
+    background-color: #fff;
+    width: 600px;
+    /* border: solid black; */
+   position: relative;
+   height: 150px;
+   text-justify: distribute;
+   border-bottom-right-radius: 8px;
+}
+
+/* .menuinf{
+    background-color: white;
+} */
+
+.card_ord{
+    height: 40px;
+    width: 70px;
+    /* padding: 8px 10px ; */
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    border: 1px solid black
+}
+
+.footer{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(214, 202, 202);
+    height: 380px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footimg{
+    height: 400px;
+}
+
+.imgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.footinf{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.foimg1,.foimg2{
+    height: 50px;
+}
+
+footer{
+    background-color: brown;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    /* height: 40px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.symbols{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: antiquewhite;
+}
+
+/* i{
+    height: 40px;
+} */
+
+.imglink1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: antiquewhite; */
+}
